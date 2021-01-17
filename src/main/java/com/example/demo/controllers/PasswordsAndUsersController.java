@@ -40,6 +40,7 @@ public class PasswordsAndUsersController {
         UsernameAndPasswordObject usernameAndPasswordObject3 = new UsernameAndPasswordObject("altenar", "altenar");
         this.getAvailableUsernamesAndPasswords().add(usernameAndPasswordObject1);
         this.getAvailableUsernamesAndPasswords().add(usernameAndPasswordObject2);
+        this.getAvailableUsernamesAndPasswords().add(usernameAndPasswordObject3);
     }
 
     @PostMapping("/authorize")
